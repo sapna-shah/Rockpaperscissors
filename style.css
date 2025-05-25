@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+#change{
+  /* height: 10px;
+  width: 20px; */
+  background-color: #081b31;
+  color: #fff;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 2rem;
+  cursor: pointer;
+  float: right;
+  /* opacity: 0.5; */
+  
+}
+.dark{
+background-color: black;
+color: white;
+}
+
+
+.light{
+background-color: white;
+color: black;
+}
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+}
+.choice {
+  height: 100px;
+  width: 165px;
+  border-radius: 60px;
+}
+
+.choice:hover {
+  opacity: 0.5; /*blure the image hover */
+  cursor: pointer;
+}
+img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover; /*image ko acha banata hai*/
+  margin: 5px;
+  padding: 5px;
+  border-radius: 60px;
+}
+.choices {
+
+  display: flex; /*  image ko horizontal lata hai */
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top:3rem ;
+  text-align: center;
+
+  gap: 5rem;
+}
+#user-score,
+#comp-score {
+  font-size: 45px;
+}
+
+.msg-container{
+    margin-top: 5rem;
+    text-align: center;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+
+#msg {
+  
+  display: inline;
+  background-color: #081b31;
+  color: #fff;
+  border-radius: 1rem;
+ font-size: 2rem;
+ padding: 1rem;
+ text-align: center;
+ align-items: center;
+ 
+}
